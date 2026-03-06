@@ -10,6 +10,9 @@ void user_init(int array[DEFAULT_SIZE], int length) {
 }
 
 
-void print(string msg) {
-	cout << msg;
+void print( int array[DEFAULT_SIZE],int length) {
+	for (int i = 0; i < length; i++)
+	{
+		cout << array[i]<<" ";
+	}
 }

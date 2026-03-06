@@ -13,6 +13,8 @@ int main() {
 
 	reverse(array, length);
 
+	print( array, length);
+
 
 	return 0;
 }
